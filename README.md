@@ -4,11 +4,8 @@
 
 I’m a software developer and open-source enthusiast. This README is a quick, editable profile template — replace the placeholders below with your own info.
 
-- 🔭 I’m currently working on: Add your current project(s)
-- 🌱 I’m currently learning: Add technologies you're learning
-- 👯 I’m looking to collaborate on: Add collaboration topics
-- 💬 Ask me about: Short list of topics you know well
-- 📫 How to reach me: your-email@example.com
+- 🌱 I’m currently learning: NoSql , Typescript 
+- 📫 How to reach me: jayamsrivastava99@gmail.com
 
 ---
 
