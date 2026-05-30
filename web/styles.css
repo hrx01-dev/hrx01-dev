@@ -1,0 +1,17 @@
+:root{
+  --bg:#0f172a;--card:#0b1220;--muted:#9ca3af;--accent:#0ea5a4
+}
+*{box-sizing:border-box}
+body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0;background:linear-gradient(180deg,#020617 0%, #071029 100%);color:#e6eef6}
+.hero{display:flex;align-items:center;gap:16px;padding:28px 32px}
+.avatar{width:96px;height:96px;border-radius:12px;background:transparent}
+.tagline{color:var(--muted);margin:6px 0 0}
+.skills{padding:24px 32px}
+.skills h2{margin:0 0 12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px}
+.skill{display:flex;align-items:center;gap:10px;padding:10px;background:rgba(255,255,255,0.03);border-radius:8px}
+.skill img{width:28px;height:28px}
+.projects{padding:24px 32px}
+.screenshot img{max-width:100%;border-radius:8px;border:1px solid rgba(255,255,255,0.04)}
+.footer{padding:20px 32px;color:var(--muted)}
+.footer a{color:var(--accent);text-decoration:none}
