@@ -2,7 +2,7 @@
 
 <img src="./assets/profile.svg" alt="profile" width="120" align="right" />
 
-I’m a software developer and open-source enthusiast. This README is a quick, editable profile template — replace the placeholders below with your own info.
+I’m a software developer and open-source enthusiast. 
 
 - 🌱 I’m currently learning: NoSql , Typescript 
 - 📫 How to reach me: jayamsrivastava99@gmail.com
