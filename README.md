@@ -42,8 +42,11 @@ I’m a software developer and open-source enthusiast.
 
 ### Stats
 
-![hrx01-dev's GitHub stats](https://github-readme-stats.vercel.app/api?username=hrx01-dev&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hrx01-dev&layout=compact&theme=radical)
+[![Followers](https://img.shields.io/github/followers/hrx01-dev?label=Followers&style=social)](https://github.com/hrx01-dev) [![Profile Views](https://komarev.com/ghpvc/?username=hrx01-dev)](https://github.com/hrx01-dev) [![Trophy](https://github-profile-trophy.vercel.app/?username=hrx01-dev&theme=radical)](https://github.com/hrx01-dev)
+
+![Public Repos](https://img.shields.io/badge/Public%20Repos-9-brightgreen)
+![Total Stars](https://img.shields.io/badge/Total%20Stars-0-yellow)
+![Top Language](https://img.shields.io/badge/Top%20Language-TypeScript-blue)
 
 ---
 
