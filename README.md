@@ -9,9 +9,9 @@ I’m a software developer and open-source enthusiast.
 
 ---
 
-### Tech & Tools
+### Languages  
 
-- Languages:
+
 
 - <img src="./assets/icons/python.svg" width="20" height="20" alt="Python" /> Python
 - <img src="./assets/icons/javascript.svg" width="20" height="20" alt="JavaScript" /> JavaScript
@@ -22,13 +22,13 @@ I’m a software developer and open-source enthusiast.
 - <img src="./assets/icons/html.svg" width="20" height="20" alt="HTML" /> HTML
 - <img src="./assets/icons/css.svg" width="20" height="20" alt="CSS" /> CSS
 
- - Tools:
+### Tools 
 
 - <img src="./assets/icons/git.svg" width="20" height="20" alt="Git" /> Git
 - <img src="./assets/icons/docker.svg" width="20" height="20" alt="Docker" /> Docker
 - <img src="./assets/icons/firebase.svg" width="20" height="20" alt="Firebase" /> Firebase
 - <img src="./assets/icons/kubernetes.svg" width="20" height="20" alt="Kubernetes" /> Kubernetes
-- VS Code (add icon if desired)
+
 
 ---
 
