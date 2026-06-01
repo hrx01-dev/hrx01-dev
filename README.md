@@ -38,11 +38,7 @@ I’m a software developer and open-source enthusiast.
 - Mediinsight — This app is designed especially for Older  people to keep track of their medication , give them reminders , have an on device LLM works offline , Contain an OCR system which is used to identify the mdeicine  · [repo](https://github.com/hrx01-dev/MediInsight)
 - VeritasAI — This project is designed to prevent misinformation. It includes features like deepfake detection, authenticated website and URL checks, and text content analysis. It also provides a comprehensive analysis report and sets up a community where users can openly discuss misinformation. · [repo](https://github.com/hrx01-dev/VeritasAI)
 
-![Project screenshot](./assets/project-screenshot.svg)
 
-Tip: Replace the files in `assets/` with your real screenshots. Use the same filename or update the image path in this README.
-
----
 
 ### Stats
 
@@ -59,16 +55,3 @@ Tip: Replace the files in `assets/` with your real screenshots. Use the same fil
 
 ---
 
-If you'd like, I can:
-
-1. Replace placeholders with your real projects/links.
-2. Add badges (CI, npm/pypi, license) for specific repos.
-3. Generate a short portfolio section with screenshots and usage examples.
-
-Tell me which of the above you'd like me to apply next.
-
----
-
-Preview a local demo: open the `web/index.html` file in a browser to see a simple HTML/CSS showcase of your profile, skills, and project screenshot.
-
-Files added: `web/index.html`, `web/styles.css` (uses images from `assets/`).
