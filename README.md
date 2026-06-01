@@ -3,8 +3,8 @@
 
 I’m a software developer and open-source enthusiast. 
 
-- 🌱 I’m currently learning: NoSql , Typescript 
-- 📫 How to reach me: jayamsrivastava99@gmail.com
+- 🔭 I am currently working on building practical web projects, improving my frontend and backend skills, and learning how to use TypeScript and NoSQL more effectively.
+
 
 ---
 
