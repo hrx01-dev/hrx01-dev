@@ -12,21 +12,21 @@ I’m a software developer and open-source enthusiast.
 
 
 
-<img src="./assets/icons/python.svg" width="20" height="20" alt="Python" /> Python&nbsp;&nbsp;
-<img src="./assets/icons/javascript.svg" width="20" height="20" alt="JavaScript" /> JavaScript&nbsp;&nbsp;
-<img src="./assets/icons/typescript.svg" width="20" height="20" alt="TypeScript" /> TypeScript&nbsp;&nbsp;
-<img src="./assets/icons/sql.svg" width="20" height="20" alt="SQL" /> SQL&nbsp;&nbsp;
-<img src="./assets/icons/react.svg" width="20" height="20" alt="React" /> React&nbsp;&nbsp;
-<img src="./assets/icons/node.svg" width="20" height="20" alt="Node.js" /> Node.js&nbsp;&nbsp;
-<img src="./assets/icons/html.svg" width="20" height="20" alt="HTML" /> HTML&nbsp;&nbsp;
-<img src="./assets/icons/css.svg" width="20" height="20" alt="CSS" /> CSS
+<img src="./assets/icons/python.svg" width="20" height="20" alt="Python" /> &nbsp;&nbsp;
+<img src="./assets/icons/javascript.svg" width="20" height="20" alt="JavaScript" /> &nbsp;&nbsp;
+<img src="./assets/icons/typescript.svg" width="20" height="20" alt="TypeScript" />&nbsp;&nbsp;
+<img src="./assets/icons/sql.svg" width="20" height="20" alt="SQL" /> &nbsp;&nbsp;
+<img src="./assets/icons/react.svg" width="20" height="20" alt="React" /> &nbsp;&nbsp;
+<img src="./assets/icons/node.svg" width="20" height="20" alt="Node.js" /> &nbsp;&nbsp;
+<img src="./assets/icons/html.svg" width="20" height="20" alt="HTML" /> &nbsp;&nbsp;
+<img src="./assets/icons/css.svg" width="20" height="20" alt="CSS" /> 
 
 ### Tools 
 
-<img src="./assets/icons/git.svg" width="20" height="20" alt="Git" /> Git&nbsp;&nbsp;
-<img src="./assets/icons/docker.svg" width="20" height="20" alt="Docker" /> Docker&nbsp;&nbsp;
-<img src="./assets/icons/firebase.svg" width="20" height="20" alt="Firebase" /> Firebase&nbsp;&nbsp;
-<img src="./assets/icons/kubernetes.svg" width="20" height="20" alt="Kubernetes" /> Kubernetes
+<img src="./assets/icons/git.svg" width="20" height="20" alt="Git" /> &nbsp;&nbsp;
+<img src="./assets/icons/docker.svg" width="20" height="20" alt="Docker" /> &nbsp;&nbsp;
+<img src="./assets/icons/firebase.svg" width="20" height="20" alt="Firebase" /> &nbsp;&nbsp;
+<img src="./assets/icons/kubernetes.svg" width="20" height="20" alt="Kubernetes" />
 
 
 ---
