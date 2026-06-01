@@ -1,6 +1,5 @@
-## Hi there 👋 Myself Jayam  Srivastava
+<img src=".\assets\icons\image.png>"
 
-<img src="./assets/profile.svg" alt="profile" width="120" align="right" />
 
 I’m a software developer and open-source enthusiast. 
 
@@ -34,7 +33,7 @@ I’m a software developer and open-source enthusiast.
 
 ### Featured Projects
 
-- Budgetra — This project aims to provide students better management of their expenses and keep track of it  · [repo](https://github.com/hrx01-dev/BUDGETRA)
+- <img src="./assets/icons/1.jpeg" width="40" height="40" alt="Budgetra" /> Budgetra — This project aims to provide students better management of their expenses and keep track of it  · [repo](https://github.com/hrx01-dev/BUDGETRA)
 - Mediinsight — This app is designed especially for Older  people to keep track of their medication , give them reminders , have an on device LLM works offline , Contain an OCR system which is used to identify the mdeicine  · [repo](https://github.com/hrx01-dev/MediInsight)
 - VeritasAI — This project is designed to prevent misinformation. It includes features like deepfake detection, authenticated website and URL checks, and text content analysis. It also provides a comprehensive analysis report and sets up a community where users can openly discuss misinformation. · [repo](https://github.com/hrx01-dev/VeritasAI)
 
