@@ -47,6 +47,10 @@ I’m a software developer and open-source enthusiast.
 ![Total Stars](https://img.shields.io/badge/Total%20Stars-0-yellow)
 ![Top Language](https://img.shields.io/badge/Top%20Language-TypeScript-blue)
 
+### Contribution Snake
+
+![Snake animation](https://raw.githubusercontent.com/hrx01-dev/hrx01-dev/output/github-contribution-grid-snake.svg)
+
 ---
 
 ### Contact
