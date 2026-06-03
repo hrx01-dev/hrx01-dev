@@ -42,24 +42,17 @@ I’m a software developer and open-source enthusiast.
 ### GitHub Profile Stats
 
 <p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=hrx01-dev&show_icons=true&theme=github_dark&hide_border=false&rank_icon=github"
-    alt="Jayam Srivastava's GitHub stats"
-    height="180"
-  />
-  <img
-    src="https://github-readme-streak-stats.herokuapp.com?user=hrx01-dev&theme=github-dark-blue&hide_border=false"
-    alt="Jayam Srivastava's GitHub streak stats"
-    height="180"
-  />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hrx01-dev&theme=github_dark" alt="Jayam Srivastava's GitHub profile summary" />
 </p>
 
 <p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=hrx01-dev&layout=compact&theme=github_dark&hide_border=false"
-    alt="Jayam Srivastava's top languages"
-    height="170"
-  />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=hrx01-dev&theme=github_dark" alt="Jayam Srivastava's GitHub stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=hrx01-dev&theme=github_dark&utcOffset=5.5" alt="Jayam Srivastava's productive time" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=hrx01-dev&theme=github_dark" alt="Jayam Srivastava's top languages by repository" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=hrx01-dev&theme=github_dark" alt="Jayam Srivastava's top languages by commit" />
 </p>
 
 <p align="center">
