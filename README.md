@@ -39,13 +39,34 @@ I’m a software developer and open-source enthusiast.
 
 
 
-### Stats
+### GitHub Profile Stats
 
-[![Profile Views](https://komarev.com/ghpvc/?username=hrx01-dev)](https://github.com/hrx01-dev)
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=hrx01-dev&show_icons=true&theme=github_dark&hide_border=false&rank_icon=github"
+    alt="Jayam Srivastava's GitHub stats"
+    height="180"
+  />
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com?user=hrx01-dev&theme=github-dark-blue&hide_border=false"
+    alt="Jayam Srivastava's GitHub streak stats"
+    height="180"
+  />
+</p>
 
-![Public Repos](https://img.shields.io/badge/Public%20Repos-9-brightgreen)
-![Total Stars](https://img.shields.io/badge/Total%20Stars-0-yellow)
-![Top Language](https://img.shields.io/badge/Top%20Language-TypeScript-blue)
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=hrx01-dev&layout=compact&theme=github_dark&hide_border=false"
+    alt="Jayam Srivastava's top languages"
+    height="170"
+  />
+</p>
+
+<p align="center">
+  <a href="https://github.com/hrx01-dev">
+    <img src="https://komarev.com/ghpvc/?username=hrx01-dev&style=flat-square" alt="Profile views" />
+  </a>
+</p>
 
 ---
 
