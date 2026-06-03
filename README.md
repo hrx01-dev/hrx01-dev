@@ -11,23 +11,23 @@ I’m a software developer and open-source enthusiast.
 ### Languages  
 
 <p>
-  <img src="./assets/icons/python.svg" width="48" height="48" alt="Python" /> &nbsp;&nbsp;
-  <img src="./assets/icons/javascript.svg" width="48" height="48" alt="JavaScript" /> &nbsp;&nbsp;
-  <img src="./assets/icons/typescript.svg" width="48" height="48" alt="TypeScript" /> &nbsp;&nbsp;
-  <img src="./assets/icons/sql.svg" width="48" height="48" alt="SQL" /> &nbsp;&nbsp;
-  <img src="./assets/icons/react.svg" width="48" height="48" alt="React" /> &nbsp;&nbsp;
-  <img src="./assets/icons/node.svg" width="48" height="48" alt="Node.js" /> &nbsp;&nbsp;
-  <img src="./assets/icons/html.svg" width="48" height="48" alt="HTML" /> &nbsp;&nbsp;
-  <img src="./assets/icons/css.svg" width="48" height="48" alt="CSS" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="56" height="56" alt="Python" /> &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="56" height="56" alt="JavaScript" /> &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="56" height="56" alt="TypeScript" /> &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="56" height="56" alt="SQL" /> &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="56" height="56" alt="React" /> &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="56" height="56" alt="Node.js" /> &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="56" height="56" alt="HTML" /> &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="56" height="56" alt="CSS" />
 </p>
 
 ### Tools 
 
 <p>
-  <img src="./assets/icons/git.svg" width="48" height="48" alt="Git" /> &nbsp;&nbsp;
-  <img src="./assets/icons/docker.svg" width="48" height="48" alt="Docker" /> &nbsp;&nbsp;
-  <img src="./assets/icons/firebase.svg" width="48" height="48" alt="Firebase" /> &nbsp;&nbsp;
-  <img src="./assets/icons/kubernetes.svg" width="48" height="48" alt="Kubernetes" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="56" height="56" alt="Git" /> &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="56" height="56" alt="Docker" /> &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="56" height="56" alt="Firebase" /> &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="56" height="56" alt="Kubernetes" />
 </p>
 
 
