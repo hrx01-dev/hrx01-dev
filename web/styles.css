@@ -2,8 +2,9 @@
   --bg:#0f172a;--card:#0b1220;--muted:#9ca3af;--accent:#0ea5a4
 }
 *{box-sizing:border-box}
-body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0;background:linear-gradient(180deg,#020617 0%, #071029 100%);color:#e6eef6}
+body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0;background:linear-gradient(180deg,#020617 0%, #071029 100%);color:#e6eef6;line-height:1.5}
 .hero{display:flex;align-items:center;gap:16px;padding:28px 32px}
+.hero,.skills,.projects,.footer{max-width:980px;margin:0 auto}
 .avatar{width:96px;height:96px;border-radius:12px;background:transparent}
 .tagline{color:var(--muted);margin:6px 0 0}
 .skills{padding:24px 32px}
@@ -13,5 +14,12 @@ body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica
 .skill img{width:28px;height:28px}
 .projects{padding:24px 32px}
 .screenshot img{max-width:100%;border-radius:8px;border:1px solid rgba(255,255,255,0.04)}
+.screenshot figcaption{margin-top:10px;color:var(--muted)}
 .footer{padding:20px 32px;color:var(--muted)}
 .footer a{color:var(--accent);text-decoration:none}
+.footer a:hover{text-decoration:underline}
+
+@media (max-width:640px){
+  .hero{flex-direction:column;align-items:flex-start}
+  .hero,.skills,.projects,.footer{padding-left:20px;padding-right:20px}
+}
