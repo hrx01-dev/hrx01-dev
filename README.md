@@ -1,9 +1,9 @@
 ## <img src="./assets/profile.svg" width="240" alt="Animated HRX profile emblem" />
 
 
-I’m a software developer and open-source enthusiast. 
+I’m a software developer and open-source enthusiast.
 
-- 🔭 I am currently working on building practical web projects, improving my frontend and backend skills, and learning how to use TypeScript and NoSQL more effectively.
+- 🔭 I’m currently building practical web projects, improving my frontend and backend skills, and using TypeScript and NoSQL more effectively.
 
 
 ---
@@ -35,9 +35,9 @@ I’m a software developer and open-source enthusiast.
 
 ### Featured Projects
 
-- Budgetra — This project aims to provide students better management of their expenses and keep track of it  · [Checkout](https://github.com/hrx01-dev/BUDGETRA)
-- Mediinsight — This app is designed especially for Older  people to keep track of their medication , give them reminders , have an on device LLM works offline , Contain an OCR system which is used to identify the mdeicine  · [Checkout](https://github.com/hrx01-dev/MediInsight)
-- VeritasAI — This project is designed to prevent misinformation. It includes features like deepfake detection, authenticated website and URL checks, and text content analysis. It also provides a comprehensive analysis report and sets up a community where users can openly discuss misinformation. · [Checkout](https://github.com/hrx01-dev/VeritasAI)
+- Budgetra — A student-focused expense manager for tracking spending and improving financial habits. · [Checkout](https://github.com/hrx01-dev/BUDGETRA)
+- MediInsight — A medication companion for older adults with reminders, offline on-device LLM support, and OCR-based medicine identification. · [Checkout](https://github.com/hrx01-dev/MediInsight)
+- VeritasAI — A misinformation defense platform with deepfake detection, website/URL authenticity checks, text analysis, and community-led discussion. · [Checkout](https://github.com/hrx01-dev/VeritasAI)
 
 
 
