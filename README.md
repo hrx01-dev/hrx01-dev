@@ -71,8 +71,12 @@ I’m a software developer and open-source enthusiast.
 
 ### Contact
 
-- <img src="https://cdn.simpleicons.org/github/ffffff" width="16" height="16" alt="GitHub" /> https://github.com/hrx01-dev
-- <img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="16" height="16" alt="LinkedIn" /> https://www.linkedin.com/in/jayam-srivastava-519aa8377
-- <img src="https://cdn.simpleicons.org/gmail/EA4335" width="16" height="16" alt="Email" /> mailto:jayamsrivastava99@gmail.com
+<p>
+  <a href="https://github.com/hrx01-dev"><img src="https://cdn.simpleicons.org/github/ffffff" width="28" height="28" alt="GitHub" /></a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/jayam-srivastava-519aa8377"><img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="28" height="28" alt="LinkedIn" /></a>
+  &nbsp;&nbsp;
+  <a href="mailto:jayamsrivastava99@gmail.com"><img src="https://cdn.simpleicons.org/gmail/EA4335" width="28" height="28" alt="Email" /></a>
+</p>
 
 ---
