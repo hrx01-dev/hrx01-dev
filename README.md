@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/banner.svg" width="100%" alt="Animated hrx01-dev banner" />
+</p>
+
 ## <img src="./assets/profile.svg" width="240" alt="Animated HRX profile emblem" />
 
 
