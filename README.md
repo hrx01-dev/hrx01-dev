@@ -71,8 +71,8 @@ I’m a software developer and open-source enthusiast.
 
 ### Contact
 
-- Email: jayamsrivastava99@gmail.com
-
-- LinkedIn: [Jayam Srivastava](https://www.linkedin.com/in/jayam-srivastava-519aa8377?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+- <img src="https://cdn.simpleicons.org/github/ffffff" width="16" height="16" alt="GitHub" /> https://github.com/hrx01-dev
+- <img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="16" height="16" alt="LinkedIn" /> https://www.linkedin.com/in/jayam-srivastava-519aa8377
+- <img src="https://cdn.simpleicons.org/gmail/EA4335" width="16" height="16" alt="Email" /> mailto:jayamsrivastava99@gmail.com
 
 ---
