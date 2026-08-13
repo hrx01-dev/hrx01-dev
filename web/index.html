@@ -8,42 +8,66 @@
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <header class="hero">
-    <img src="../assets/profile.svg" alt="Animated HRX profile emblem" class="avatar" />
-    <div>
-      <h1>Jayam Srivastava</h1>
-      <p class="tagline">Software developer • Open-source enthusiast</p>
-    </div>
-  </header>
+  <main class="layout">
+    <header class="hero card">
+      <img src="../assets/profile.svg" alt="Animated profile emblem" class="avatar" />
+      <div class="hero-copy">
+        <p class="eyebrow">Software Engineer</p>
+        <h1>Jayam Srivastava</h1>
+        <p class="tagline">Building practical products with scalable frontend systems, robust backend services, and modern cloud tooling.</p>
+      </div>
+    </header>
 
-  <section class="skills">
-    <h2>Skills</h2>
-    <div class="grid">
-      <div class="skill"><img src="../assets/icons/python.svg" alt="Python"/><span>Python</span></div>
-      <div class="skill"><img src="../assets/icons/javascript.svg" alt="JavaScript"/><span>JavaScript</span></div>
-      <div class="skill"><img src="../assets/icons/typescript.svg" alt="TypeScript"/><span>TypeScript</span></div>
-      <div class="skill"><img src="../assets/icons/sql.svg" alt="SQL"/><span>SQL</span></div>
-      <div class="skill"><img src="../assets/icons/react.svg" alt="React"/><span>React</span></div>
-      <div class="skill"><img src="../assets/icons/node.svg" alt="Node.js"/><span>Node.js</span></div>
-      <div class="skill"><img src="../assets/icons/html.svg" alt="HTML"/><span>HTML</span></div>
-      <div class="skill"><img src="../assets/icons/css.svg" alt="CSS"/><span>CSS</span></div>
-      <div class="skill"><img src="../assets/icons/git.svg" alt="Git"/><span>Git</span></div>
-      <div class="skill"><img src="../assets/icons/docker.svg" alt="Docker"/><span>Docker</span></div>
-      <div class="skill"><img src="../assets/icons/firebase.svg" alt="Firebase"/><span>Firebase</span></div>
-      <div class="skill"><img src="../assets/icons/kubernetes.svg" alt="Kubernetes"/><span>Kubernetes</span></div>
-    </div>
-  </section>
+    <section class="stats">
+      <article class="stat-card">
+        <p class="stat-label">Featured Projects</p>
+        <p class="stat-value">03+</p>
+      </article>
+      <article class="stat-card">
+        <p class="stat-label">Core Stack</p>
+        <p class="stat-value">12</p>
+      </article>
+      <article class="stat-card">
+        <p class="stat-label">Open Source</p>
+        <p class="stat-value">Active</p>
+      </article>
+      <article class="stat-card">
+        <p class="stat-label">Focus</p>
+        <p class="stat-value">Full-Stack</p>
+      </article>
+    </section>
 
-  <section class="projects">
-    <h2>Featured Project</h2>
-    <figure class="screenshot">
-      <img src="../assets/project-screenshot.svg" alt="Project screenshot preview"/>
-      <figcaption>Project showcase preview — replace with a live project screenshot when available.</figcaption>
-    </figure>
-  </section>
+    <section class="skills card">
+      <div class="section-heading">
+        <h2>Tech Stack</h2>
+      </div>
+      <div class="grid">
+        <div class="skill"><img src="../assets/icons/python.svg" alt="Python"/><span>Python</span></div>
+        <div class="skill"><img src="../assets/icons/javascript.svg" alt="JavaScript"/><span>JavaScript</span></div>
+        <div class="skill"><img src="../assets/icons/typescript.svg" alt="TypeScript"/><span>TypeScript</span></div>
+        <div class="skill"><img src="../assets/icons/sql.svg" alt="SQL"/><span>SQL</span></div>
+        <div class="skill"><img src="../assets/icons/react.svg" alt="React"/><span>React</span></div>
+        <div class="skill"><img src="../assets/icons/node.svg" alt="Node.js"/><span>Node.js</span></div>
+        <div class="skill"><img src="../assets/icons/html.svg" alt="HTML"/><span>HTML</span></div>
+        <div class="skill"><img src="../assets/icons/css.svg" alt="CSS"/><span>CSS</span></div>
+        <div class="skill"><img src="../assets/icons/git.svg" alt="Git"/><span>Git</span></div>
+        <div class="skill"><img src="../assets/icons/docker.svg" alt="Docker"/><span>Docker</span></div>
+        <div class="skill"><img src="../assets/icons/firebase.svg" alt="Firebase"/><span>Firebase</span></div>
+        <div class="skill"><img src="../assets/icons/kubernetes.svg" alt="Kubernetes"/><span>Kubernetes</span></div>
+      </div>
+    </section>
 
-  <footer class="footer">
-    <a href="../README.md">Back to README</a>
-  </footer>
+    <section class="projects card">
+      <h2 class="project-title">Featured Project Experience</h2>
+      <figure class="screenshot">
+        <img src="../assets/project-screenshot.svg" alt="Animated project showcase preview"/>
+        <figcaption>Immersive interface preview with polished motion accents and modern presentation styling.</figcaption>
+      </figure>
+    </section>
+
+    <footer class="footer">
+      <a href="../README.md">Back to README</a>
+    </footer>
+  </main>
 </body>
 </html>
