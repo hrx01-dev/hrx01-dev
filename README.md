@@ -1,4 +1,4 @@
-## <img src=".\assets\icons\image.png" />
+## <img src="./assets/profile.svg" width="240" alt="Animated HRX profile emblem" />
 
 
 I’m a software developer and open-source enthusiast. 
@@ -72,4 +72,3 @@ I’m a software developer and open-source enthusiast.
 - LinkedIn: [Jayam Srivastava](https://www.linkedin.com/in/jayam-srivastava-519aa8377?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
 ---
-
