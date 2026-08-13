@@ -1,6 +1,117 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
-  <rect width="100%" height="100%" fill="#0ea5a4" rx="16"/>
-  <circle cx="120" cy="80" r="44" fill="#fff"/>
-  <rect x="46" y="140" width="148" height="48" rx="8" fill="#fff"/>
-  <text x="120" y="175" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#0ea5a4" text-anchor="middle" alignment-baseline="central">HRX</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+  <title id="title">Animated HRX profile emblem</title>
+  <desc id="desc">A polished animated emblem with layered gradients, orbital strokes, floating particles, and a subtle text reveal.</desc>
+
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a">
+        <animate attributeName="stop-color" values="#0f172a;#111827;#0f172a" dur="12s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#0ea5a4">
+        <animate attributeName="stop-color" values="#0ea5a4;#2563eb;#0ea5a4" dur="12s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#1d4ed8">
+        <animate attributeName="stop-color" values="#1d4ed8;#0891b2;#1d4ed8" dur="12s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <radialGradient id="coreGlow" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="ringStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#67e8f9" />
+      <stop offset="50%" stop-color="#a78bfa" />
+      <stop offset="100%" stop-color="#22d3ee" />
+    </linearGradient>
+
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <clipPath id="cardClip">
+      <rect x="76" y="88" width="168" height="152" rx="24" />
+    </clipPath>
+
+    <style>
+      .floatSlow { animation: floatSlow 7s ease-in-out infinite; transform-origin: 50% 50%; }
+      .floatFast { animation: floatFast 4.8s ease-in-out infinite; transform-origin: 50% 50%; }
+      .spinRing { animation: spinRing 16s linear infinite; transform-origin: 50% 50%; }
+      .spinRingRev { animation: spinRingRev 11s linear infinite; transform-origin: 50% 50%; }
+      .pulse { animation: pulse 4.2s ease-in-out infinite; }
+      .dash { stroke-dasharray: 8 10; animation: dash 8s linear infinite; }
+      .reveal {
+        stroke-dasharray: 340;
+        stroke-dashoffset: 340;
+        animation: reveal 2.4s ease-out forwards 0.3s;
+      }
+      .textFade { opacity: 0; animation: textFade 1.2s ease-out forwards 1.4s; }
+      @keyframes floatSlow {
+        0%,100% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+      }
+      @keyframes floatFast {
+        0%,100% { transform: translateY(0px) translateX(0px); }
+        50% { transform: translateY(6px) translateX(3px); }
+      }
+      @keyframes spinRing { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      @keyframes spinRingRev { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+      @keyframes pulse {
+        0%,100% { opacity: 0.5; }
+        50% { opacity: 0.92; }
+      }
+      @keyframes dash { to { stroke-dashoffset: -180; } }
+      @keyframes reveal { to { stroke-dashoffset: 0; } }
+      @keyframes textFade {
+        from { opacity: 0; transform: translateY(5px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .floatSlow,.floatFast,.spinRing,.spinRingRev,.pulse,.dash,.reveal,.textFade { animation: none !important; }
+        .reveal { stroke-dashoffset: 0; }
+        .textFade { opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <rect width="320" height="320" rx="36" fill="url(#bgGradient)" />
+
+  <g class="pulse" filter="url(#softGlow)">
+    <circle cx="160" cy="146" r="95" fill="url(#coreGlow)" />
+  </g>
+
+  <g class="spinRing" opacity="0.75">
+    <circle cx="160" cy="146" r="108" fill="none" stroke="url(#ringStroke)" stroke-width="2.4" class="dash" />
+  </g>
+
+  <g class="spinRingRev" opacity="0.5">
+    <circle cx="160" cy="146" r="86" fill="none" stroke="#a5f3fc" stroke-width="1.6" stroke-dasharray="2 9" />
+  </g>
+
+  <g class="floatSlow" opacity="0.78">
+    <circle cx="90" cy="96" r="4.5" fill="#67e8f9" />
+    <circle cx="238" cy="88" r="3.5" fill="#c4b5fd" />
+    <circle cx="246" cy="198" r="4" fill="#67e8f9" />
+    <circle cx="78" cy="208" r="3" fill="#bfdbfe" />
+  </g>
+
+  <g class="floatFast">
+    <rect x="76" y="88" width="168" height="152" rx="24" fill="rgba(15,23,42,0.56)" stroke="rgba(255,255,255,0.26)" stroke-width="1.1" />
+
+    <g clip-path="url(#cardClip)">
+      <rect x="58" y="82" width="50" height="176" fill="rgba(255,255,255,0.09)">
+        <animateTransform attributeName="transform" type="translate" values="-120 0;240 0" dur="6.8s" repeatCount="indefinite" />
+      </rect>
+    </g>
+  </g>
+
+  <path d="M108 196 L108 120 L126 120 L138 154 L150 120 L168 120 L168 196" fill="none" stroke="#ecfeff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="reveal"/>
+  <path d="M190 120 L218 120 M204 120 L204 196 M190 196 L218 196" fill="none" stroke="#ecfeff" stroke-width="8" stroke-linecap="round" class="reveal"/>
+
+  <text x="160" y="268" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" letter-spacing="2.6" fill="#dbeafe" class="textFade">SOFTWARE BUILDER</text>
 </svg>
