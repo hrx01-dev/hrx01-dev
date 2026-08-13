@@ -1,6 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
-  <rect width="100%" height="100%" fill="#0ea5a4" rx="16"/>
-  <circle cx="120" cy="80" r="44" fill="#fff"/>
-  <rect x="46" y="140" width="148" height="48" rx="8" fill="#fff"/>
-  <text x="120" y="175" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#0ea5a4" text-anchor="middle" alignment-baseline="central">HRX</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+  <title id="title">Animated profile emblem</title>
+  <desc id="desc">Professional animated emblem with layered gradients, orbital rings, and abstract product-building motifs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b132b"/>
+      <stop offset="0.5" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#c4b5fd"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="46%" r="60%">
+      <stop offset="0" stop-color="#dbeafe" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#dbeafe" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <style>
+      .orbit { transform-origin: 160px 152px; animation: spin 15s linear infinite; }
+      .orbit-r { transform-origin: 160px 152px; animation: spinR 11s linear infinite; }
+      .float { animation: float 4.3s ease-in-out infinite; }
+      .pulse { animation: pulse 4s ease-in-out infinite; }
+      .flow { stroke-dasharray: 16 8; animation: stream 3.8s linear infinite; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @keyframes spinR { to { transform: rotate(-360deg); } }
+      @keyframes float { 0%,100%{ transform: translateY(0);}50%{ transform: translateY(-7px);} }
+      @keyframes pulse { 0%,100% { opacity:.5;}50%{ opacity:.95;} }
+      @keyframes stream { to { stroke-dashoffset: -72; } }
+      @media (prefers-reduced-motion: reduce) {
+        .orbit,.orbit-r,.float,.pulse,.flow { animation: none !important; }
+      }
+    </style>
+  </defs>
+
+  <rect width="320" height="320" rx="34" fill="url(#bg)"/>
+  <circle cx="160" cy="152" r="98" fill="url(#glow)" class="pulse" filter="url(#softGlow)"/>
+
+  <g class="orbit" opacity="0.8">
+    <circle cx="160" cy="152" r="110" fill="none" stroke="url(#ring)" stroke-width="2.2" class="flow"/>
+  </g>
+  <g class="orbit-r" opacity="0.5">
+    <circle cx="160" cy="152" r="84" fill="none" stroke="#a5f3fc" stroke-width="1.7" stroke-dasharray="3 10"/>
+  </g>
+
+  <g class="float">
+    <rect x="88" y="90" width="144" height="132" rx="22" fill="rgba(8,15,34,.52)" stroke="rgba(255,255,255,.25)"/>
+    <path d="M112 182h96" stroke="#dbeafe" stroke-opacity=".4"/>
+    <path d="M112 165h58" stroke="#dbeafe" stroke-opacity=".55"/>
+    <path d="M112 148h36" stroke="#dbeafe" stroke-opacity=".65"/>
+
+    <path d="M118 126l24 18 26-24 34 28" fill="none" stroke="#67e8f9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="118" cy="126" r="5" fill="#67e8f9"/>
+    <circle cx="142" cy="144" r="5" fill="#93c5fd"/>
+    <circle cx="168" cy="120" r="5" fill="#c4b5fd"/>
+    <circle cx="202" cy="148" r="5" fill="#22d3ee"/>
+  </g>
+
+  <text x="160" y="266" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" letter-spacing="2.2" fill="#e2e8f0">PRODUCT ENGINEERING</text>
 </svg>
