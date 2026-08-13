@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/banner.svg" width="100%" alt="Animated hrx01-dev banner" />
+</p>
+
 ## <img src="./assets/profile.svg" width="240" alt="Animated HRX profile emblem" />
 
 
@@ -67,8 +71,12 @@ I’m a software developer and open-source enthusiast.
 
 ### Contact
 
-- Email: jayamsrivastava99@gmail.com
-
-- LinkedIn: [Jayam Srivastava](https://www.linkedin.com/in/jayam-srivastava-519aa8377?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+<p>
+  <a href="https://github.com/hrx01-dev"><img src="https://cdn.simpleicons.org/github/ffffff" width="28" height="28" alt="GitHub" /></a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/jayam-srivastava-519aa8377"><img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="28" height="28" alt="LinkedIn" /></a>
+  &nbsp;&nbsp;
+  <a href="mailto:jayamsrivastava99@gmail.com"><img src="https://cdn.simpleicons.org/gmail/EA4335" width="28" height="28" alt="Email" /></a>
+</p>
 
 ---

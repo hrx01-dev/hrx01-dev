@@ -43,6 +43,18 @@ body {
   gap: 20px;
 }
 
+.banner {
+  padding: 0;
+  overflow: hidden;
+}
+
+.banner-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 0;
+}
+
 .avatar {
   width: 110px;
   height: 110px;
@@ -138,6 +150,9 @@ body {
   height: 30px;
   animation: iconFloat 3.4s ease-in-out infinite;
 }
+
+.skill:nth-child(3n) img { animation-delay: 0.35s; }
+.skill:nth-child(4n) img { animation-delay: 0.7s; }
 
 .skill:hover {
   transform: translateY(-3px);
