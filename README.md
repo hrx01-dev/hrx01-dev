@@ -2,7 +2,7 @@
 
 [![hrx01-dev banner](https://github.com/hrx01-dev/hrx01-dev/raw/main/assets/banner.svg)](https://github.com/hrx01-dev/hrx01-dev/blob/main/assets/banner.svg)
 
-<img src="https://github.com/hrx01-dev/hrx01-dev/raw/main/assets/profile.svg" alt="Animated HRX profile emblem" width="140" />
+
 
 # Jayam Srivastava
 
