@@ -19,14 +19,14 @@
 ### 👨‍💻 About Me
 
 <details>
-  <summary><b>✨ Click to reveal my journey</b></summary>
-  <br/>
-  
-  - 🔭 I'm currently building practical web projects, sharpening my **frontend** and **backend** skills.
-  - 🌱 Exploring advanced patterns in **TypeScript**, **React**, and **NoSQL** architectures.
-  - 💡 I believe in writing clean, maintainable code and solving complex problems with elegant solutions.
-  - 💬 Ask me about **JavaScript, Python, or building scalable web apps**.
-  - ⚡ Fun fact: When I'm not coding, I'm likely exploring new tech trends or contributing to open source.
+<summary><b>✨ Click to reveal my journey</b></summary>
+<br/>
+
+- 🔭 I'm currently building practical web projects, sharpening my **frontend** and **backend** skills.
+- 🌱 Exploring advanced patterns in **TypeScript**, **React**, and **NoSQL** architectures.
+- 💡 I believe in writing clean, maintainable code and solving complex problems with elegant solutions.
+- 💬 Ask me about **JavaScript, Python, or building scalable web apps**.
+- ⚡ Fun fact: When I'm not coding, I'm likely exploring new tech trends or contributing to open source.
 </details>
 
 ---
@@ -68,14 +68,14 @@
 ### 🚀 Featured Projects
 
 <details open>
-  <summary><b>📂 View my top projects</b></summary>
-  <br/>
-  
-  | Project & Links | Description | Status |
-  | :--- | :--- | :---: |
-  | 💰 [**Budgetra**](https://github.com/hrx01-dev/BUDGETRA) | Student-focused expense manager for tracking spending and building better financial habits. | 🚀 Active |
-  | 💊 [**MediInsight**](https://github.com/hrx01-dev/MediInsight) | Medication companion for older adults — offline on-device LLM support, and OCR medicine identification. | 🛠️ In Progress |
-  | 🛡️ [**VeritasAI**](https://github.com/hrx01-dev/VeritasAI) | Misinformation defense platform with deepfake detection, URL authenticity checks, and text analysis. | ✨ Maintained |
+<summary><b>📂 View my top projects</b></summary>
+<br/>
+
+| Project & Links | Description | Status |
+| :--- | :--- | :---: |
+| 💰 [**Budgetra**](https://github.com/hrx01-dev/BUDGETRA) | Student-focused expense manager for tracking spending and building better financial habits. | 🚀 Active |
+| 💊 [**MediInsight**](https://github.com/hrx01-dev/MediInsight) | Medication companion for older adults — offline on-device LLM support, and OCR medicine identification. | 🛠️ In Progress |
+| 🛡️ [**VeritasAI**](https://github.com/hrx01-dev/VeritasAI) | Misinformation defense platform with deepfake detection, URL authenticity checks, and text analysis. | ✨ Maintained |
 
 </details>
 
@@ -84,20 +84,20 @@
 ### 📈 GitHub Analytics
 
 <details>
-  <summary><b>📊 Click to reveal my GitHub Stats</b></summary>
-  <br/>
+<summary><b>📊 Click to reveal my GitHub Stats</b></summary>
+<br/>
+
+<div align="center">
   
-  <div align="center">
-    
-    <img src="https://github-readme-stats.vercel.app/api?username=hrx01-dev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8" alt="Jayam's GitHub Stats" width="48%" />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=hrx01-dev&theme=tokyonight&hide_border=true&background=0f172a&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" alt="Jayam's GitHub Streak" width="48%" />
-    
-    <br/><br/>
-    
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=hrx01-dev&theme=tokyonight&utcOffset=5.5" alt="Productive Time" width="48%" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hrx01-dev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8" alt="Top Languages" width="48%" />
-    
-  </div>
+<img src="https://github-readme-stats.vercel.app/api?username=hrx01-dev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8" alt="Jayam's GitHub Stats" width="48%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=hrx01-dev&theme=tokyonight&hide_border=true&background=0f172a&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" alt="Jayam's GitHub Streak" width="48%" />
+
+<br/><br/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=hrx01-dev&theme=tokyonight&utcOffset=5.5" alt="Productive Time" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hrx01-dev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8" alt="Top Languages" width="48%" />
+
+</div>
 </details>
 
 <br/>
