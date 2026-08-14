@@ -1,60 +1,127 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
   <title id="title">Animated Jayam Srivastava banner</title>
-  <desc id="desc">Animated banner with username and social links for GitHub, LinkedIn, and email.</desc>
+  <desc id="desc">Glassmorphism animated banner with username, quote, and social links.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#020617">
-        <animate attributeName="stop-color" values="#020617;#111827;#020617" dur="8s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="1" stop-color="#0f172a">
-        <animate attributeName="stop-color" values="#0f172a;#0b1124;#0f172a" dur="8s" repeatCount="indefinite"/>
-      </stop>
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0f172a"/>
     </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#38bdf8"/>
-      <stop offset="1" stop-color="#a78bfa"/>
+    
+    <radialGradient id="orb1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="glass-border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.3)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.05)"/>
     </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="5"/>
-    </filter>
+
     <style>
-      .sweep { animation: sweep 8s linear infinite; }
-      .float { animation: float 4s ease-in-out infinite; }
-      .sub { fill: #cbd5e1; font: 500 22px/1.25 Inter,Segoe UI,Arial,sans-serif; letter-spacing: 0.2px; }
-      .title { fill: #e2e8f0; font: 700 58px/1.1 Inter,Segoe UI,Arial,sans-serif; letter-spacing: 1.2px; }
-      .icon-link { cursor: pointer; }
-      @keyframes sweep { to { transform: translateX(1200px); } }
-      @keyframes float { 0%,100%{ transform: translateY(0);}50%{ transform: translateY(-4px);} }
-      @media (prefers-reduced-motion: reduce) { .sweep,.float { animation: none !important; } }
+      .orb1 { animation: float1 12s ease-in-out infinite alternate; }
+      .orb2 { animation: float2 15s ease-in-out infinite alternate; }
+      .orb3 { animation: float3 18s ease-in-out infinite alternate; }
+      
+      .glass-panel { 
+        fill: rgba(15, 23, 42, 0.45); 
+        stroke: url(#glass-border);
+        stroke-width: 1.5px;
+      }
+      
+      .title { fill: #f8fafc; font: 800 64px/1.1 'Inter', 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: -1px; }
+      .quote { fill: #cbd5e1; font: italic 400 24px/1.5 'Inter', 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: 0.5px; }
+      .sub { fill: #e2e8f0; font: 600 18px/1.25 'Inter', 'Segoe UI', Helvetica, Arial, sans-serif; }
+      
+      .pill {
+        fill: rgba(255, 255, 255, 0.05);
+        stroke: rgba(255, 255, 255, 0.15);
+        stroke-width: 1px;
+        transition: all 0.3s ease;
+      }
+      
+      a:hover .pill {
+        fill: rgba(255, 255, 255, 0.1);
+        stroke: rgba(255, 255, 255, 0.3);
+      }
+      
+      @keyframes float1 { 
+        0% { transform: translate(0px, 0px) scale(1); }
+        100% { transform: translate(150px, -50px) scale(1.2); }
+      }
+      @keyframes float2 { 
+        0% { transform: translate(0px, 0px) scale(1); }
+        100% { transform: translate(-150px, 80px) scale(1.1); }
+      }
+      @keyframes float3 { 
+        0% { transform: translate(0px, 0px) scale(1); }
+        100% { transform: translate(80px, 100px) scale(1.3); }
+      }
+      @media (prefers-reduced-motion: reduce) { 
+        .orb1, .orb2, .orb3 { animation: none !important; }
+      }
     </style>
   </defs>
 
-  <rect width="1200" height="320" rx="26" fill="url(#bg)"/>
-  <circle cx="1060" cy="70" r="64" fill="#38bdf8" opacity=".14" filter="url(#glow)"/>
-  <circle cx="170" cy="250" r="70" fill="#a78bfa" opacity=".16" filter="url(#glow)"/>
+  <!-- Background Base -->
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
 
-  <g class="float">
-    <text x="72" y="120" class="title">Jayam Srivastava</text>
-    <a href="https://github.com/hrx01-dev" target="_blank" class="icon-link">
-      <g transform="translate(75 161) scale(0.7083)">
-        <circle cx="24" cy="24" r="24" fill="#111827" stroke="#94a3b8" stroke-opacity=".45"/>
-        <path d="M24 11c-7.2 0-13 5.8-13 13 0 5.7 3.7 10.6 8.8 12.3.7.1.9-.3.9-.7v-2.2c-3.6.8-4.3-1.5-4.3-1.5-.6-1.4-1.4-1.8-1.4-1.8-1.2-.8.1-.8.1-.8 1.3.1 2 1.4 2 1.4 1.2 2 3.1 1.4 3.8 1.1.1-.8.4-1.4.9-1.7-2.9-.3-5.8-1.4-5.8-6.1 0-1.3.5-2.4 1.3-3.3-.1-.3-.5-1.6.1-3.3 0 0 1.1-.3 3.6 1.3 1-.3 2.1-.4 3.2-.4 1.1 0 2.2.1 3.2.4 2.4-1.6 3.5-1.3 3.5-1.3.7 1.7.3 3 .2 3.3.8.9 1.3 2 1.3 3.3 0 4.8-3 5.8-5.9 6.1.5.4.9 1.2.9 2.3v3.3c0 .4.2.8.9.7 5.1-1.7 8.8-6.6 8.8-12.3 0-7.2-5.8-13-13-13z" fill="#f8fafc"/>
-      </g>
-      <text x="122" y="188" class="sub">GitHub</text>
-    </a>
+  <!-- Glowing Orbs Behind Glass -->
+  <circle cx="250" cy="160" r="180" fill="url(#orb1)" class="orb1"/>
+  <circle cx="950" cy="100" r="160" fill="url(#orb2)" class="orb2"/>
+  <circle cx="600" cy="250" r="140" fill="url(#orb3)" class="orb3"/>
 
-    <a href="https://www.linkedin.com/in/jayam-srivastava-519aa8377" target="_blank" class="icon-link">
-      <rect x="75" y="203" width="34" height="34" rx="8" fill="#2563eb" />
-      <text x="92" y="226" text-anchor="middle" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">in</text>
-      <text x="122" y="228" class="sub">LinkedIn</text>
-    </a>
+  <!-- Glassmorphic Panel -->
+  <rect x="40" y="35" width="1120" height="250" rx="24" class="glass-panel" />
 
-    <a href="mailto:jayamsrivastava99@gmail.com" class="icon-link">
-      <rect x="74" y="248" width="36" height="24" rx="4" fill="#0f172a" stroke="#94a3b8" stroke-opacity=".5"/>
-      <path d="M77 251l15 11 15-11" fill="none" stroke="#e2e8f0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-      <text x="122" y="268" class="sub">Email</text>
-    </a>
+  <!-- Content Group -->
+  <g transform="translate(100, 110)">
+    
+    <!-- Title -->
+    <text x="0" y="0" class="title">Jayam Srivastava</text>
+    
+    <!-- Quote -->
+    <text x="0" y="45" class="quote">"Crafting elegant digital experiences with passion and precision."</text>
+    
+    <!-- Social Links Row -->
+    <g transform="translate(0, 95)">
+      
+      <!-- GitHub Button -->
+      <a href="https://github.com/hrx01-dev" target="_blank">
+        <rect x="0" y="0" width="140" height="48" rx="24" class="pill" />
+        <g transform="translate(18, 12)">
+          <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" fill="#f8fafc"/>
+        </g>
+        <text x="52" y="30" class="sub">GitHub</text>
+      </a>
+
+      <!-- LinkedIn Button -->
+      <a href="https://www.linkedin.com/in/jayam-srivastava-519aa8377" target="_blank" transform="translate(156, 0)">
+        <rect x="0" y="0" width="154" height="48" rx="24" class="pill" />
+        <g transform="translate(18, 12)">
+          <rect width="24" height="24" rx="4" fill="#2563eb"/>
+          <text x="12" y="17" text-anchor="middle" fill="#f8fafc" font-family="'Inter', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700">in</text>
+        </g>
+        <text x="52" y="30" class="sub">LinkedIn</text>
+      </a>
+
+      <!-- Email Button -->
+      <a href="mailto:jayamsrivastava99@gmail.com" transform="translate(326, 0)">
+        <rect x="0" y="0" width="134" height="48" rx="24" class="pill" />
+        <g transform="translate(18, 15)">
+          <rect x="0" y="0" width="22" height="16" rx="3" fill="none" stroke="#f8fafc" stroke-width="1.8"/>
+          <path d="M2 3l9 6 9-6" fill="none" stroke="#f8fafc" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <text x="52" y="30" class="sub">Email</text>
+      </a>
+      
+    </g>
   </g>
-
-  <rect x="-280" y="0" width="180" height="320" fill="url(#line)" opacity=".22" class="sweep"/>
 </svg>
