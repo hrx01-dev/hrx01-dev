@@ -117,7 +117,7 @@ Open source is part of how I build, not just something I do on the side. Through
 I enjoy the whole process: understanding an issue, discussing a direction, making the change, and refining it through review.
 
 <p>
-  <a href="https://github.com/search?q=is%3Apr+author%3Ahrx01-dev&amp;type=pullrequests"><img src="./assets/profile/community-work.svg" width="48%" alt="Open-source work — explore my pull requests and contributions" /></a>
+  <a href="https://github.com/search?q=is%3Apr+author%3Ahrx01-dev+label%3A%22gssoc%3Aapproved%22&amp;type=pullrequests"><img src="./assets/profile/community-work.svg" width="48%" alt="Open-source work — explore my pull requests labeled gssoc:approved" /></a>
   &nbsp;
   <a href="https://github.com/hrx01-dev?tab=repositories"><img src="./assets/profile/project-lab.svg" width="48%" alt="Explore the lab — browse my repositories and experiments" /></a>
 </p>
