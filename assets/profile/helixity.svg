@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="190" viewBox="0 0 480 190" role="img" aria-labelledby="title desc">
+<title id="title">Helixity</title><desc id="desc">Developer Tools project by Jayam Srivastava.</desc>
+<defs><radialGradient id="glow"><stop stop-color="#9ce8ce" stop-opacity=".12"/><stop offset="1" stop-color="#9ce8ce" stop-opacity="0"/></radialGradient></defs>
+<rect width="480" height="190" rx="6" fill="#0d141a"/><circle cx="395" cy="95" r="112" fill="url(#glow)"/>
+<path d="M28 151H300" stroke="#2a363c"/><path d="M28 151H70" stroke="#9ce8ce"/>
+<g font-family="Arial,Helvetica,sans-serif"><text x="28" y="39" font-size="11" letter-spacing="2" fill="#9ce8ce">01 / DEVELOPER TOOLS</text>
+<text x="26" y="109" font-size="37" font-weight="700" letter-spacing="-1.4" fill="#f2f2ec">Helixity</text>
+<text x="28" y="172" font-size="10" letter-spacing="1.8" fill="#98a6af">SELECTED WORK</text></g>
+<g fill="none" stroke="#9ce8ce" stroke-width="2"><ellipse cx="395" cy="96" rx="45" ry="61" transform="rotate(35 395 96)"/><ellipse cx="395" cy="96" rx="45" ry="61" transform="rotate(-35 395 96)"/><path d="M355 52L435 140M355 140L435 52" opacity=".45"/><circle cx="395" cy="96" r="8" fill="#9ce8ce"/></g>
+</svg>

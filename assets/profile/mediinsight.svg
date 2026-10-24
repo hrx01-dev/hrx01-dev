@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="190" viewBox="0 0 480 190" role="img" aria-labelledby="title desc">
+<title id="title">MediInsight</title><desc id="desc">Edge Ai project by Jayam Srivastava.</desc>
+<defs><radialGradient id="glow"><stop stop-color="#a9c7ff" stop-opacity=".12"/><stop offset="1" stop-color="#a9c7ff" stop-opacity="0"/></radialGradient></defs>
+<rect width="480" height="190" rx="6" fill="#0d141a"/><circle cx="395" cy="95" r="112" fill="url(#glow)"/>
+<path d="M28 151H300" stroke="#2a363c"/><path d="M28 151H70" stroke="#a9c7ff"/>
+<g font-family="Arial,Helvetica,sans-serif"><text x="28" y="39" font-size="11" letter-spacing="2" fill="#a9c7ff">03 / EDGE AI</text>
+<text x="26" y="109" font-size="37" font-weight="700" letter-spacing="-1.4" fill="#f2f2ec">MediInsight</text>
+<text x="28" y="172" font-size="10" letter-spacing="1.8" fill="#98a6af">SELECTED WORK</text></g>
+<g fill="none" stroke="#a9c7ff" stroke-width="2"><rect x="367" y="39" width="54" height="112" rx="27" transform="rotate(35 394 95)"/><path d="M372 80L416 110"/><path d="M328 105H350L359 86L368 117L378 100H388" stroke-width="2.5"/><circle cx="440" cy="43" r="5" fill="#a9c7ff"/></g>
+</svg>

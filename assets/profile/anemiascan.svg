@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="190" viewBox="0 0 480 190" role="img" aria-labelledby="title desc">
+<title id="title">AnemiaScan</title><desc id="desc">Applied Ai project by Jayam Srivastava.</desc>
+<defs><radialGradient id="glow"><stop stop-color="#f1b69b" stop-opacity=".12"/><stop offset="1" stop-color="#f1b69b" stop-opacity="0"/></radialGradient></defs>
+<rect width="480" height="190" rx="6" fill="#0d141a"/><circle cx="395" cy="95" r="112" fill="url(#glow)"/>
+<path d="M28 151H300" stroke="#2a363c"/><path d="M28 151H70" stroke="#f1b69b"/>
+<g font-family="Arial,Helvetica,sans-serif"><text x="28" y="39" font-size="11" letter-spacing="2" fill="#f1b69b">02 / APPLIED AI</text>
+<text x="26" y="109" font-size="37" font-weight="700" letter-spacing="-1.4" fill="#f2f2ec">AnemiaScan</text>
+<text x="28" y="172" font-size="10" letter-spacing="1.8" fill="#98a6af">SELECTED WORK</text></g>
+<g fill="none" stroke="#f1b69b" stroke-width="2"><path d="M330 95Q392 20 454 95Q392 170 330 95Z"/><circle cx="392" cy="95" r="27"/><circle cx="392" cy="95" r="10" fill="#f1b69b"/><path d="M350 40V30H365M420 30H435V40M350 150V160H365M420 160H435V150" opacity=".6"/></g>
+</svg>
