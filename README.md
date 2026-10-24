@@ -69,12 +69,44 @@ Right now, I'm building **Helixity** to help teams keep up with API changes, exp
 
 ### 03 / My toolkit
 
-| Where I work | What I reach for |
-| :--- | :--- |
-| **Interfaces** | React · Next.js · Vite · Tailwind CSS · HTML · CSS |
-| **Languages & APIs** | TypeScript · JavaScript · Python · C · FastAPI · Node.js |
-| **Data & infrastructure** | Firebase · Supabase · PostgreSQL · Redis · Docker |
-| **AI & developer workflow** | PyTorch · ONNX Runtime · Git · GitHub Actions · Playwright · Figma |
+<h4>Interfaces</h4>
+<p>
+  <img src="./assets/profile/tech/react.svg" width="52" height="52" alt="React" title="React" /> &nbsp;
+  <img src="./assets/profile/tech/nextjs.svg" width="52" height="52" alt="Next.js" title="Next.js" /> &nbsp;
+  <img src="./assets/profile/tech/vitejs.svg" width="52" height="52" alt="Vite" title="Vite" /> &nbsp;
+  <img src="./assets/profile/tech/tailwindcss.svg" width="52" height="52" alt="Tailwind CSS" title="Tailwind CSS" /> &nbsp;
+  <img src="./assets/profile/tech/html5.svg" width="52" height="52" alt="HTML" title="HTML" /> &nbsp;
+  <img src="./assets/profile/tech/css3.svg" width="52" height="52" alt="CSS" title="CSS" />
+</p>
+
+<h4>Languages &amp; APIs</h4>
+<p>
+  <img src="./assets/profile/tech/typescript.svg" width="52" height="52" alt="TypeScript" title="TypeScript" /> &nbsp;
+  <img src="./assets/profile/tech/javascript.svg" width="52" height="52" alt="JavaScript" title="JavaScript" /> &nbsp;
+  <img src="./assets/profile/tech/python.svg" width="52" height="52" alt="Python" title="Python" /> &nbsp;
+  <img src="./assets/profile/tech/c.svg" width="52" height="52" alt="C" title="C" /> &nbsp;
+  <img src="./assets/profile/tech/fastapi.svg" width="52" height="52" alt="FastAPI" title="FastAPI" /> &nbsp;
+  <img src="./assets/profile/tech/nodejs.svg" width="52" height="52" alt="Node.js" title="Node.js" />
+</p>
+
+<h4>Data &amp; infrastructure</h4>
+<p>
+  <img src="./assets/profile/tech/firebase.svg" width="52" height="52" alt="Firebase" title="Firebase" /> &nbsp;
+  <img src="./assets/profile/tech/supabase.svg" width="52" height="52" alt="Supabase" title="Supabase" /> &nbsp;
+  <img src="./assets/profile/tech/postgresql.svg" width="52" height="52" alt="PostgreSQL" title="PostgreSQL" /> &nbsp;
+  <img src="./assets/profile/tech/redis.svg" width="52" height="52" alt="Redis" title="Redis" /> &nbsp;
+  <img src="./assets/profile/tech/docker.svg" width="52" height="52" alt="Docker" title="Docker" />
+</p>
+
+<h4>AI &amp; developer workflow</h4>
+<p>
+  <img src="./assets/profile/tech/pytorch.svg" width="52" height="52" alt="PyTorch" title="PyTorch" /> &nbsp;
+  <img src="./assets/profile/tech/onnx.svg" width="52" height="52" alt="ONNX Runtime" title="ONNX Runtime" /> &nbsp;
+  <img src="./assets/profile/tech/git.svg" width="52" height="52" alt="Git" title="Git" /> &nbsp;
+  <img src="./assets/profile/tech/githubactions.svg" width="52" height="52" alt="GitHub Actions" title="GitHub Actions" /> &nbsp;
+  <img src="./assets/profile/tech/playwright.svg" width="52" height="52" alt="Playwright" title="Playwright" /> &nbsp;
+  <img src="./assets/profile/tech/figma.svg" width="52" height="52" alt="Figma" title="Figma" />
+</p>
 
 <br />
 
@@ -84,7 +116,11 @@ Open source is part of how I build, not just something I do on the side. Through
 
 I enjoy the whole process: understanding an issue, discussing a direction, making the change, and refining it through review.
 
-[Explore my pull requests ↗](https://github.com/search?q=is%3Apr+author%3Ahrx01-dev&type=pullrequests) &nbsp; · &nbsp; [Browse my repositories ↗](https://github.com/hrx01-dev?tab=repositories)
+<p>
+  <a href="https://github.com/search?q=is%3Apr+author%3Ahrx01-dev&amp;type=pullrequests"><img src="./assets/profile/community-work.svg" width="48%" alt="Open-source work — explore my pull requests and contributions" /></a>
+  &nbsp;
+  <a href="https://github.com/hrx01-dev?tab=repositories"><img src="./assets/profile/project-lab.svg" width="48%" alt="Explore the lab — browse my repositories and experiments" /></a>
+</p>
 
 <br />
 
